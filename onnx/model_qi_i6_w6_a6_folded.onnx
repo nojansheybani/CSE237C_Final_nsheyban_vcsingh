@@ -1,0 +1,40 @@
+
+fuse_model:´
+Å
+Transpose_2_out0MaxPoolNHWC_0_out0StreamingMaxPool_Batch_0"StreamingMaxPool_Batch*
+ImgDim *
+NumChannels *
+PoolDim *
+backend"fpgadataflow *
+dataType"FLOAT32 :finn
+fuse-graphZ*
+Transpose_2_out0
+
+
+
+
+b,
+MaxPoolNHWC_0_out0
+
+
+
+
+j*
+Transpose_2_out0
+
+
+
+
+j,
+MaxPoolNHWC_0_out0
+
+
+
+
+rS
+Transpose_2_out0
+finn_datatypeFLOAT32%
+tensor_layout['N', 'H', 'W', 'C']rU
+MaxPoolNHWC_0_out0
+finn_datatypeFLOAT32%
+tensor_layout['N', 'H', 'W', 'C']B
