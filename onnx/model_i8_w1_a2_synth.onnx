@@ -1,0 +1,60 @@
+
+fuse_model:¿
+º
+	global_in!StreamingDataflowPartition_0_out0StreamingDataflowPartition_0"StreamingDataflowPartition*J
+model">/tmp/finn_dev_nojan/dataflow_partition0_zwfjbk6g/df_model.onnx :finn
+Ò
+!StreamingDataflowPartition_0_out0!StreamingDataflowPartition_1_out0StreamingDataflowPartition_1"StreamingDataflowPartition*J
+model">/tmp/finn_dev_nojan/dataflow_partition2_rnxv1i8_/df_model.onnx :finn
+»
+!StreamingDataflowPartition_1_out0
+global_outStreamingDataflowPartition_2"StreamingDataflowPartition*J
+model">/tmp/finn_dev_nojan/dataflow_partition1_dla3cwe7/df_model.onnx :finn
+fuse-graphZ#
+	global_in
+
+
+
+
+b
+
+global_out
+
+
+j#
+	global_in
+
+
+
+
+j3
+!StreamingDataflowPartition_1_out0
+
+
+j;
+!StreamingDataflowPartition_0_out0
+
+
+
+
+rA
+
+global_out
+finn_datatypeUINT8
+tensor_layout
+['N', 'C']rJ
+	global_in
+finn_datatypeUINT8%
+tensor_layout['N', 'H', 'W', 'C']r;
+!StreamingDataflowPartition_1_out0
+finn_datatypeUINT8r;
+!StreamingDataflowPartition_0_out0
+finn_datatypeUINT8Br;
+pynq_driver_dir(/tmp/finn_dev_nojan/pynq_driver_0zj0suh4rA
+vivado_pynq_proj-/tmp/finn_dev_nojan/vivado_zynq_proj_q9wym5krrD
+bitfile9/tmp/finn_dev_nojan/vivado_zynq_proj_q9wym5kr/resizer.bitrG
+
+hw_handoff9/tmp/finn_dev_nojan/vivado_zynq_proj_q9wym5kr/resizer.hwhrR
+vivado_synth_rpt>/tmp/finn_dev_nojan/vivado_zynq_proj_q9wym5kr/synth_report.xmlr
+platform
+zynq-iodma
