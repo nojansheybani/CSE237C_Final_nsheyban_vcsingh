@@ -63,6 +63,6 @@ zynq-iodmar
 pynq_usernamexilinxr
 pynq_passwordxilinxr.
 pynq_target_dir/home/xilinx/finn_dev_nojanrC
-pynq_deployment_dir,/tmp/finn_dev_nojan/pynq_deployment_emai1n7xr?
-pynq_deploy_dir,/tmp/finn_dev_nojan/pynq_deployment_emai1n7xr
+pynq_deployment_dir,/tmp/finn_dev_nojan/pynq_deployment_5giy66rhr?
+pynq_deploy_dir,/tmp/finn_dev_nojan/pynq_deployment_5giy66rhr
 	exec_moderemote_pynq
