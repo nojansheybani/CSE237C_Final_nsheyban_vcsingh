@@ -1,6 +1,13 @@
 
-# Training Notes
 
-- Able to train from i8_w8_a8 to i4_w4_a4 with Adam lr=0.0001
+# Files
 
-- Not able to learn on i2_w2_a2 at all.
+- archive: This folder contains old notebooks and files that are not used for the final product
+- models: This folder contains all models that have been trained and tested on Fashion-MNIST
+	- file name logic: model_i{INPUT WIDTH}_w{WEIGHT WIDTH}_a{ACTIVATION WIDTH}.pth
+- onnx: This folder contains all onnx files acquired during FINN transformation and deploy process for each final and preliminary model
+- train_utils.py: This file contains the training and testing functions that are used in the training and testing notebooks
+- Train_i{INPUT WIDTH}_w{WEIGHT WIDTH}_a{ACTIVATION WIDTH}.ipynb
+	- These notebooks create, train, and test the respective bit width models on Fashion-MNIST
+- Deployw{WEIGHT WIDTH}_a{ACTIVATION WIDTH}.ipynb
+	- These notebooks perform the FINN and HLS transformations and deploy our models onto Pynq
